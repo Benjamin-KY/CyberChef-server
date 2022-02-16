@@ -40,7 +40,7 @@
     "express-pino-logger": "^4.0.0",
     "helmet": "^3.21.1",
     "swagger-ui-express": "^4.2.0",
-    "yaml": "^1.7.2"
+    "yaml": "^1.10.2"
   },
   "repository": {
     "type": "git",
