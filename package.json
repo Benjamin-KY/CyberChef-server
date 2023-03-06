@@ -40,7 +40,7 @@
     "esm": "^3.2.25",
     "express": "~4.17.3",
     "express-pino-logger": "^4.0.0",
-    "helmet": "^3.21.1",
+    "helmet": "^3.23.3",
     "swagger-ui-express": "^4.2.0",
     "yaml": "^1.7.2",
     "@snyk/protect": "latest"
