@@ -1,4 +1,4 @@
-FROM node:alpine3.10
+FROM node:16.19.1-bullseye-slim
 LABEL author "Wes Lambert, wlambertts@gmail.com"
 LABEL description="Dockerised version of Cyberchef server (https://github.com/gchq/CyberChef-server)"
 LABEL copyright "Crown Copyright 2020"
