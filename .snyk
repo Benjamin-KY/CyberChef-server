@@ -8,3 +8,5 @@ patch:
         patched: '2023-03-06T00:33:47.481Z'
     - cyberchef > node-sass > sass-graph > lodash:
         patched: '2023-03-06T00:33:47.481Z'
+    - cyberchef > babel-plugin-transform-builtin-extend > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-03-06T16:40:13.210Z'
