@@ -29,7 +29,9 @@
     "test": "mocha -r esm",
     "prod": "NODE_ENV=production node -r esm ./bin/www",
     "lint": "./node_modules/.bin/eslint --fix .",
-    "lint-test": "./node_modules/.bin/eslint ."
+    "lint-test": "./node_modules/.bin/eslint .",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -40,7 +42,8 @@
     "express-pino-logger": "^4.0.0",
     "helmet": "^3.21.1",
     "swagger-ui-express": "^4.2.0",
-    "yaml": "^1.7.2"
+    "yaml": "^1.7.2",
+    "@snyk/protect": "latest"
   },
   "repository": {
     "type": "git",
@@ -55,5 +58,6 @@
     "nodemon": "^1.19.4",
     "pino-pretty": "^3.2.2",
     "supertest": "^4.0.2"
-  }
+  },
+  "snyk": true
 }
