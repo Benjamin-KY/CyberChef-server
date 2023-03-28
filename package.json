@@ -43,7 +43,7 @@
     "helmet": "^3.21.1",
     "swagger-ui-express": "^4.2.0",
     "yaml": "^1.7.2",
-    "@snyk/protect": "latest"
+    "@snyk/protect": "1.1114.0"
   },
   "repository": {
     "type": "git",
